@@ -21,7 +21,7 @@ module.exports = function runJavascript(filePath) {
     });
 }
 
-module.exports = function patches_main() {
+function patches_main() {
     /**
      * 
      * PATCHES CODE
