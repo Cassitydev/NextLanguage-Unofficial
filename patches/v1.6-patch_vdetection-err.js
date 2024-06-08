@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const currenttime = require('nextlibrary-unofficial/app/config/timeModule.js');
 
-fs.writeFileSync('./build/lib/log/' + currenttime + '-NXL_Debug.log', `
+fs.writeFileSync('./build/log/' + currenttime + '-NXL_Debug.log', `
     You are currently using an unofficial version of NextLanguage.
     Any changes made to this build is unofficial and not is not made
     by the official maintainer and development team of NextLanguage.
