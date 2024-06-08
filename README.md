@@ -7,13 +7,6 @@ NextLanguage using NPM now.
 <br>
 <br>
 
-> [!NOTE]
-> The NPM version of NextLanguage Unofficial will be a little
-> different from the Github Repository Releases of the Branch.
-> As it needs to be ran by another Javascript File. Instead
-> of using it's own file compiler.
-<br>
-
 **How to install Nextlanguage Unofficial using NPM** <br>
 ```batch
 npm install nextlanguage-unofficial
@@ -72,8 +65,6 @@ encrypt('Hello world', 'hex', 'console-output');
 
 ```
 
-[More Informations ...](documentation/Getting%20Started.md)
-
 ## 📢 NPM VERSION DIFFERENCES 📢
 The NPM Version of NextLanguage Unofficial will be
 different from the Normal Github Version. Which uses
@@ -85,3 +76,7 @@ another Javascript file inside the folder you've installed
 NextLanguage Unofficial into. And NextLanguage Unofficial's
 NPM Version requires the [Code Provided](#getting-started-on-npm)
 which runs and initializes NextLanguage Unofficial's NPM Version.
+
+## 🌌 Github Repository 🌌
+**Github Release**: https://github.com/AshleyAst/NextLanguage-Unofficial/releases/tag/v1.7.0-npm
+**Github Repository**: https://github.com/AshleyAst/NextLanguage-Unofficial/tree/npm-publish
