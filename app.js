@@ -49,7 +49,7 @@ function patches_main() {
      */
 
     if (!fs.existsSync('./build/log/NXL_Startup-Initization.log')) {
-        fs.writeFileSync('./build/lib/log/' + 'NXL_Startup-Initization.log', `
+        fs.writeFileSync('./build/log/' + 'NXL_Startup-Initization.log', `
             You are currently using an unofficial version of NextLanguage.
             Any changes made to this build is unofficial and not is not made
             by the official maintainer and development team of NextLanguage.
