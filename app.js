@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const currenttime = require('nextlibrary-unofficial/app/config/timeModule.js');
 
-export function runJavascript(filePath) {
+module.exports = function runJavascript(filePath) {
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading file:', err);
