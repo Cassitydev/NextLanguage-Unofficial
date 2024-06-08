@@ -69,5 +69,6 @@ function changeHTMLFilePath(newPath) {
 module.exports = {
     changeIcon,
     changeTitle,
-    changeHTMLFilePath
+    changeHTMLFilePath,
+    createWindow
 };
