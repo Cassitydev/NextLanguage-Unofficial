@@ -38,23 +38,6 @@ function patches_main() {
 
     /**
      * 
-     * CREATE BUILDING FOLDERS
-     * This folder will be created for storing
-     * startup and initization logs files.
-     * 
-     * Which stores all initialization logs.
-     * 
-     */
-
-    fs.mkdir('./build/lib/log', { recursive: true }, (err) => {
-        if (err) {
-            console.error(err);
-            return;
-        }
-    });
-
-    /**
-     * 
      * CREATE STARTUP LOG FILE
      * This file will be created for the first
      * time the app is ran.
@@ -65,7 +48,7 @@ function patches_main() {
      * 
      */
 
-    if (!fs.existsSync('./build/lib/log/NXL_Startup-Initization.log')) {
+    if (!fs.existsSync('./build/log/NXL_Startup-Initization.log')) {
         fs.writeFileSync('./build/lib/log/' + 'NXL_Startup-Initization.log', `
             You are currently using an unofficial version of NextLanguage.
             Any changes made to this build is unofficial and not is not made
@@ -89,7 +72,7 @@ function patches_main() {
             
             < ---------------------------------------------------------------- >
         
-            Log File: ./build/lib/log/${currenttime}-NXL_Startup.log
+            Log File: ./build/log/${currenttime}-NXL_Startup.log
         
             `, 'utf8', (err) => {
                 if (err) {
@@ -98,7 +81,7 @@ function patches_main() {
                 }
             })
     } else {
-        fs.writeFileSync('./build/lib/log/' + `NXL_Startup-${currenttime}.log`, `
+        fs.writeFileSync('./build/log/' + `NXL_Startup-${currenttime}.log`, `
             You are currently using an unofficial version of NextLanguage.
             Any changes made to this build is unofficial and not is not made
             by the official maintainer and development team of NextLanguage.
@@ -121,7 +104,7 @@ function patches_main() {
             
             < ---------------------------------------------------------------- >
         
-            Log File: ./build/lib/log/${currenttime}-NXL_Startup.log
+            Log File: ./build/log/${currenttime}-NXL_Startup.log
         
             `, 'utf8', (err) => {
                 if (err) {
