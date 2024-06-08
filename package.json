@@ -4,7 +4,7 @@
   "description": "A Computer Language from ProjectNext with the purpose of maxmium security",
   "main": "app.js",
   "scripts": {
-    "test": "bash ./build/cmd/modules/sendErr.sh",
+    "test": "npm run activate",
     "build": "npm run download && npm run update",
     "download": "npm install",
     "update": "npm update",
