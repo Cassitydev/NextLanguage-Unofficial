@@ -29,7 +29,7 @@ fs.writeFileSync('./build/log/' + currenttime + '-NXL_Debug.log', `
     
     < ---------------------------------------------------------------- >
 
-    Log File: ./build/lib/log/${currenttime}-NXL_Startup.log
+    Log File: ./build/log/${currenttime}-NXL_Startup.log
 
     `, 'utf8', (err) => {
         if (err) {
