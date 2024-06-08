@@ -76,7 +76,8 @@ another Javascript file inside the folder you've installed
 NextLanguage Unofficial into. And NextLanguage Unofficial's
 NPM Version requires the [Code Provided](#getting-started-on-npm)
 which runs and initializes NextLanguage Unofficial's NPM Version.
+<br>
 
 ## 🌌 Github Repository 🌌
-**Github Release**: https://github.com/AshleyAst/NextLanguage-Unofficial/releases/tag/v1.7.0-npm
+**Github Release**: https://github.com/AshleyAst/NextLanguage-Unofficial/releases/tag/v1.7.0-npm <br>
 **Github Repository**: https://github.com/AshleyAst/NextLanguage-Unofficial/tree/npm-publish
