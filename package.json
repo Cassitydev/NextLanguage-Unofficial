@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "bash ./build/cmd/modules/sendErr.sh",
-    "build": "npm run install && npm run update",
-    "install": "npm install fs electron path url fetch",
+    "build": "npm run download && npm run update",
+    "download": "npm install",
     "update": "npm update",
     "activate": "node app.js"
   },
